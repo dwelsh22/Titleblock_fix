@@ -19,9 +19,9 @@ print(DrawingList)
 newScr = open("new_script_file.scr", "w")
 newScr.write("filedia 0\n")
 for drawing in DrawingList:
-    newScr.write("open ~\" + drawing[Project_Number] + "-" + drawing[Drawing_Number] + ".dwg\n")
-    newScr.write("-EDITBLOCKATTRIBUTE\n\n") 
+    newScr.write("open ~\\" + drawing["Project_Number"] + "-" + drawing["Drawing_Number"] + ".dwg\n")
     for key, value in drawing.items():
-        newScr.write("TitleInfo\n*\n\n0,0\n300,50\n\nV\nR\n" + "dictionary key and value") 
-        #newScr.write("Fix the parameter " + key + " to " + value + "\n")
-    newScr.write("\nclose")
+        newScr.write("-EDITBLOCKATTRIBUTE\n\n") 
+        newScr.write("TitleInfo\n" + key +
+                "\n\n54,1.6\n54,2\n54,2.5\n54,3.1\n54,3.6\n54,4\n61,1.8\n62.5,1.8\n\nV\nR\n" + value + "\n\n") 
+    newScr.write("close\nyes\n")
