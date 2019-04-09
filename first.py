@@ -19,7 +19,7 @@ print(DrawingList)
 newScr = open("new_script_file.scr", "w")
 newScr.write("filedia 0\n")
 for drawing in DrawingList:
-    newScr.write("open ~\\" + drawing["Project_Number"] + "-" + drawing["Drawing_Number"] + ".dwg\n")
+    newScr.write("open " + drawing["Project_Number"] + "-" + drawing["Drawing_Number"] + ".dwg\n")
     for key, value in drawing.items():
         newScr.write("-EDITBLOCKATTRIBUTE\n\n") 
         newScr.write("TitleInfo\n" + key +

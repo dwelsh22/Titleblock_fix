@@ -1,5 +1,5 @@
 filedia 0
-open ~\S18L042-D2301.dwg
+open S18L042-D2301.dwg
 -EDITBLOCKATTRIBUTE
 
 TitleInfo
@@ -146,7 +146,7 @@ PLC UPGRADE
 
 close
 yes
-open ~\S18L042-D2401.dwg
+open S18L042-D2401.dwg
 -EDITBLOCKATTRIBUTE
 
 TitleInfo
@@ -293,7 +293,7 @@ PLC UPGRADE
 
 close
 yes
-open ~\S18L042-D4101.dwg
+open S18L042-D4101.dwg
 -EDITBLOCKATTRIBUTE
 
 TitleInfo
@@ -440,7 +440,7 @@ PLC UPGRADE
 
 close
 yes
-open ~\S18L042-D4301.dwg
+open S18L042-D4301.dwg
 -EDITBLOCKATTRIBUTE
 
 TitleInfo
@@ -587,7 +587,7 @@ PLC UPGRADE
 
 close
 yes
-open ~\S18L042-D4501.dwg
+open S18L042-D4501.dwg
 -EDITBLOCKATTRIBUTE
 
 TitleInfo
